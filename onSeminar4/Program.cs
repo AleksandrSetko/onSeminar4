@@ -79,3 +79,30 @@ int ReadInt(string msg)
     return Convert.ToInt32(Console.ReadLine());
 }
 Main();
+
+// reversalNum = reversalNum * 10 + num % 10;
+// num /= 10;
+
+// bool isPrime(int number)
+// {
+// if (number < 2)
+// return false;
+
+// for (int i = 2; i <= Math.Sqrt(number); i++)
+// if (number % i == 0)
+// return false;
+
+// return true;
+// }
+
+
+// int CountPrimes(int[] array)
+// {
+// int count = 0;
+
+// foreach (int number in array)
+// if (isPrime(number))
+// count++;
+
+// return count;
+// }
