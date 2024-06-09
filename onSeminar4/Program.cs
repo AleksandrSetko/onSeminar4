@@ -32,14 +32,14 @@ int[] GenerateArray(int size, int minRange, int maxRange)
 
     for (int i = 0; i < size; i++)
     {
-        tempArray[i] = rand.Next(minRange,maxRange + 1);
+        tempArray[i] = rand.Next(minRange, maxRange + 1);
         Console.Write(tempArray[i] + " ");
         if (tempArray[i] % 7 == 0 && tempArray[i] % 10 == 1)
         {
             count++;
         }
     }
-    Console.Write(count);
+    Console.Write("\n" + count);
     return tempArray;
 }
 
